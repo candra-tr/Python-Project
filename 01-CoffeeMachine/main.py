@@ -23,7 +23,7 @@ MENU = {
         "cost": 3.0,
     }
 }
-
+profit = 0
 resources = {
     "water": 300,
     "milk": 200,
@@ -37,6 +37,10 @@ while is_on:
     if choice == "off":
         is_one = False
     elif choice == 'report':
-
+        print(f"Water: {resources['water']}ml")
+        print(f"Milk: {resources['milk']}ml")
+        print(f"coffee: {resources['coffee']}g")
+        print(f"money: ${profit}")
 
 # TODO: 1. Print report of all coffe machine resource
+
