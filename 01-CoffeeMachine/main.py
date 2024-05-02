@@ -36,5 +36,7 @@ while is_on:
     choice = input("What would you like? (espresso/latte/cappuccino): ")
     if choice == "off":
         is_one = False
+    elif choice == 'report':
+
 
 # TODO: 1. Print report of all coffe machine resource
