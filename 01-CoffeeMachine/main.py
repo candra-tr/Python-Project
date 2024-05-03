@@ -85,5 +85,3 @@ while is_on:
                 make_coffee(choice, drink["ingredients"])
 
 
-# TODO: 1. Print report of all coffe machine resource
-
