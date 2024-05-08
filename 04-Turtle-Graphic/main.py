@@ -1,6 +1,10 @@
 from turtle import Turtle, Screen
 
-timmy_the_turtle = Turtle()
+tim = Turtle()
 
-screen = Screen()
-screen.exitonclick()
+num_sides = 5
+
+for _ in range(num_sides):
+    angle = 360 / num_sides
+    tim.forward(100)
+    tim.right(angle)
